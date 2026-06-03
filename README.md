@@ -1,4 +1,4 @@
-# Matrix Morpheus GRUB Theme
+# Matrix Ubuntu GRUB Theme
 **Red Pill vs Blue Pill**
 
 A minimalist Matrix-inspired GRUB theme featuring full-screen dynamic backgrounds that change between Linux and Windows.
@@ -14,7 +14,7 @@ Also, while the icons are **arranged horizontally** on screen,
 you still navigate using the **Up** and **Down arrow keys** as in a normal GRUB menu.
 
 ---
-![Matrix Morpheus GRUB Theme preview showing Arch and Windows boot icons](preview.gif)
+![Matrix Ubuntu GRUB Theme preview showing Ubuntu and Windows boot icons](preview.gif)
 ## Installation
 
 1. Clone the repo
