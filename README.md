@@ -5,10 +5,12 @@ A minimalist Matrix-inspired GRUB theme featuring full-screen dynamic background
 
 ---
 
-**Note:**  
-Currently, the theme only includes the **Arch Linux** and **Windows** icons.  
- 
-Also, while the icons are **arranged horizontally** on screen,  
+**Note:**
+No code has been changed from the original **Matrix Morpheus GRUB Theme**, I just added the **Ubuntu** version for it.
+Installation should be completely identical, so you can also just copy the **ubuntu.png** and copy it to your existing
+**Matrix Morpheus GRUB Theme**.
+
+Also, while the icons are **arranged horizontally** on screen,
 you still navigate using the **Up** and **Down arrow keys** as in a normal GRUB menu.
 
 ---
@@ -18,13 +20,13 @@ you still navigate using the **Up** and **Down arrow keys** as in a normal GRUB 
 1. Clone the repo
 
 ```shell
-git clone https://github.com/Priyank-Adhav/Matrix-Morpheus-GRUB-Theme
+git clone git@github.com:asterix234567/Matrix-Ubuntu-GRUB-Theme.git
 ```
 
-2. Go into the folder 
+2. Go into the folder
 
 ```shell
-cd Matrix-Morpheus-GRUB-Theme
+cd Matrix-Ubuntu-GRUB-Theme
 ```
 
 3. Make the installer executable
@@ -44,11 +46,16 @@ sudo ./install.sh
 ---
 Optional: Simplify Your GRUB Menu
 
-I designed this theme for a two entry layout and haven't really thought about how to visually handle the additional entries. 
+I designed this theme for a two entry layout and haven't really thought about how to visually handle the additional entries.
 
 If your GRUB menu currently has extra entries such as:
 
-- “Advanced options for Arch Linux”
+- “Advanced options for Ubuntu Linux”
 - “UEFI Firmware Settings”
 
 I would recommend you remove the extra menu entries from the grub config if you don't use them.
+
+For removing the unwanted menu entries, I used **Grub Customizer**. Even though the programm is being discussed online,
+it worked for this task very well.
+
+Hope everything works and u like it.
